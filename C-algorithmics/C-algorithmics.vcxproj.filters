@@ -21,5 +21,14 @@
     <ClCompile Include="1_concurrency_concept.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="thread.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2_synchronous_asynchronous_concept.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multi-thread_synchronous_asynchronous.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

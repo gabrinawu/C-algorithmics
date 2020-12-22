@@ -140,7 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1_concurrency_concept.c" />
+    <ClCompile Include="2_synchronous_asynchronous_concept.c" />
+    <ClCompile Include="multi-thread_synchronous_asynchronous.c" />
     <ClCompile Include="test_environment.c" />
+    <ClCompile Include="thread.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

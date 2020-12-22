@@ -1,3 +1,4 @@
+/*
 #include <process.h>
 #include <Windows.h>
 #include <stdio.h>
@@ -9,3 +10,5 @@ int hello() {
 	getchar();
 	return 0;
 }
+
+*/
