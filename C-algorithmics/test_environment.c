@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <stdio.h>
 
-int main() {
+int hello() {
 
 	printf("HELLO\n");
 

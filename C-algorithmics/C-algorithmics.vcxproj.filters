@@ -18,5 +18,8 @@
     <ClCompile Include="test_environment.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="1_concurrency_concept.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
