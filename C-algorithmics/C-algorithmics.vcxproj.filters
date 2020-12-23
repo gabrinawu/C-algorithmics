@@ -15,19 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test_environment.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="1_concurrency_concept.c">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="thread.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="2_synchronous_asynchronous_concept.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="multi-thread_synchronous_asynchronous.c">
+    <ClCompile Include="0_test_environment.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4_multi-thread_synchronous_asynchronous.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3_multi-thread_asynchronous.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5_multi-thread_time_communication__exit.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
