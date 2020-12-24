@@ -33,5 +33,8 @@
     <ClCompile Include="5_multi-thread_time_communication__exit.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="multi-thread-retrieval.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
