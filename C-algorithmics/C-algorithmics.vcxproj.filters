@@ -33,7 +33,10 @@
     <ClCompile Include="5_multi-thread_time_communication__exit.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="multi-thread-retrieval.c">
+    <ClCompile Include="7_multi-thread_slicing_search_array.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="6_multi-thread_search_array.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
