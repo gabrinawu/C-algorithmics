@@ -39,5 +39,11 @@
     <ClCompile Include="6_multi-thread_search_array.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="8_1_multiple-thread.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="8_2_multi-thread_frezz_operation.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

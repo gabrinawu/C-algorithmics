@@ -147,6 +147,8 @@
     <ClCompile Include="5_multi-thread_time_communication__exit.c" />
     <ClCompile Include="6_multi-thread_search_array.c" />
     <ClCompile Include="7_multi-thread_slicing_search_array.c" />
+    <ClCompile Include="8_1_multiple-thread.c" />
+    <ClCompile Include="8_2_multi-thread_frezz_operation.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
