@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -40,7 +42,7 @@ void find(void* p) {
 
 
 //not the ideal case,the array length cannot be sliced equally
-void main() {
+void main_NotIdeal() {
 	int data[1000] = { 0 };
 	for (int i = 999; i >= 0; i--) {
 		data[i] = i;
@@ -70,6 +72,7 @@ void main() {
 			pthread[i].length = 1000 / (threadnum - 1);
 			pthread[i].id = i;
 			pthread[i].findnum = tofindnum;
+			_beginthread(find,0,&pthread[i]);
 		}
 		{
 			int i = threadnum - 1;
@@ -105,4 +108,9 @@ void main_ideal() {
 	}
 
 	system("pause");
+}
+
+void main() {
+	//100%7 = 100-100/7*7
+
 }
