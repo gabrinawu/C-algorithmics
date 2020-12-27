@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10_create_multiple-thread.c" />
     <ClCompile Include="1_concurrency_concept.c" />
     <ClCompile Include="2_synchronous_asynchronous_concept.c" />
     <ClCompile Include="4_multi-thread_synchronous_asynchronous.c" />
@@ -149,6 +150,8 @@
     <ClCompile Include="7_multi-thread_slicing_search_array.c" />
     <ClCompile Include="8_1_multiple-thread.c" />
     <ClCompile Include="8_2_multi-thread_frezz_operation.c" />
+    <ClCompile Include="9_1_thread_conflict.c" />
+    <ClCompile Include="9_2_thread_conflict_critical_section.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

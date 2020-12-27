@@ -45,5 +45,14 @@
     <ClCompile Include="8_2_multi-thread_frezz_operation.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="9_1_thread_conflict.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="9_2_thread_conflict_critical_section.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10_create_multiple-thread.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
